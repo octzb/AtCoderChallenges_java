@@ -34,4 +34,6 @@ AtCoder
     * [Task](https://beta.atcoder.jp/contests/abc064/tasks/abc064_a)
 * [ABC 088 A - Infinite Coins](./src/main/java/com/github/octzb/AtCoderChallenges/abc088_a/Main.java)
     * [Task](https://beta.atcoder.jp/contests/abc088/tasks/abc088_a)
+* [ABC 082 A - Round Up the Mean](./src/main/java/com/github/octzb/AtCoderChallenges/abc082_a/Main.java)
+    * [Task](https://beta.atcoder.jp/contests/abc082/tasks/abc082_a)
 
