@@ -11,9 +11,12 @@ public class Main {
         int g = sc.nextInt();
         int b = sc.nextInt();
 
+        System.out.println(haveSurplus(r, g, b) ? "Yes" : "No");
+
+    }
+
+    public static boolean haveSurplus(int r, int g, int b) {
         int num = r * 100 + g * 10 + b;
-
-        System.out.println(num % 4 == 0 ? "Yes" : "No");
-
+        return num % 4 == 0;
     }
 }
