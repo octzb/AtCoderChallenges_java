@@ -11,7 +11,11 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println((a * b) % 2 == 0 ? "Even" : "Odd");
+        System.out.println(haveSurplus(a, b) ? "Odd" : "Even");
 
+    }
+
+    public static boolean haveSurplus(int a, int b) {
+        return (a * b) % 2 != 0;
     }
 }
