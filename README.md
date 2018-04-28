@@ -1,6 +1,10 @@
 AtCoderChallenges_java.git
 ----------
 
+
+![travis-cj](https://travis-ci.org/octzb/AtCoderChallenges_java.svg?branch=master)
+
+
 AtCoder
 
 ## Official
