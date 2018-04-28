@@ -28,6 +28,10 @@ AtCoder
 
 ### Table of Contents
 * [A - はじめてのあっとこーだー（Welcome to AtCoder）](./src/main/java/com/github/octzb/AtCoderChallenges/practice_1/Main.java)
-* [ABC 086 A](./src/main/java/com/github/octzb/AtCoderChallenges/abc086_a/Main.java)
-* [ABC 064 A](./src/main/java/com/github/octzb/AtCoderChallenges/abc064_a/Main.java)
+* [ABC 086 A - Product](./src/main/java/com/github/octzb/AtCoderChallenges/abc086_a/Main.java)
+    * [Task](https://beta.atcoder.jp/contests/abc086/tasks/abc086_a)
+* [ABC 064 A - RGB Cards](./src/main/java/com/github/octzb/AtCoderChallenges/abc064_a/Main.java)
+    * [Task](https://beta.atcoder.jp/contests/abc064/tasks/abc064_a)
+* [ABC 088 A - Infinite Coins](./src/main/java/com/github/octzb/AtCoderChallenges/abc088_a/Main.java)
+    * [Task](https://beta.atcoder.jp/contests/abc088/tasks/abc088_a)
 
