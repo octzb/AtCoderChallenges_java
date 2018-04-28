@@ -2,7 +2,7 @@ package com.github.octzb.AtCoderChallenges.practice_1;
 
 import java.util.Scanner;
 
-public class App {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
