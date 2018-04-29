@@ -3,19 +3,30 @@ package com.github.octzb.AtCoderChallenges.abc081_a;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-
-        System.out.println(isOdd(a, b) ? "Odd" : "Even");
+        String s = sc.next();
+        int counter = getCount(s);
+        System.out.println(counter);
 
     }
 
-    public static boolean isOdd(int a, int b) {
-        return a * b % 2 != 0;
+    public static int getCount(String s) {
+        String array[] = s.split("");
+
+        int count = 0;
+        if (array[0].equals("1")) {
+            count++;
+        }
+        if (array[1].equals("1")) {
+            count++;
+        }
+        if (array[2].equals("1")) {
+            count++;
+        }
+        return count;
     }
 
 }

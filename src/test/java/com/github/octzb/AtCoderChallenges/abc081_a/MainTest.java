@@ -8,19 +8,19 @@ import static org.junit.Assert.assertThat;
 public class MainTest {
 
     @Test
-    public void a3b4はEvenなのでfalse() {
+    public void s101は2() {
 
-        boolean actual = Main.isOdd(3, 4);
-        boolean expected = false;
+        int actual = Main.getCount("101");
+        int expected = 2;
 
         assertThat(actual, is(expected));
     }
 
     @Test
-    public void a1b21はOddなのでTrue() {
+    public void s100は1() {
 
-        boolean actual = Main.isOdd(1, 21);
-        boolean expected = true;
+        int actual = Main.getCount("100");
+        int expected = 1;
 
         assertThat(actual, is(expected));
     }
